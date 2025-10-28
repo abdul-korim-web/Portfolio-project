@@ -49,7 +49,7 @@ export default function App() {
   const menuItems = ["Home", "Portfolio", "About me", "Testimonials"];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen}>
+    <Navbar className=" shadow border-b border-gray-200 " onMenuOpenChange={setIsMenuOpen}>
       {/* react tost message */}
       <ToastContainer
         position="top-center"

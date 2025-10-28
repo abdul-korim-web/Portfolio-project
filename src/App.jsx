@@ -1,4 +1,5 @@
 import "./app.css"
+import Hero from "./Components/Hero/Hero"
 import NavbarArea from "./Components/Navbar/NavbarArea"
 function App() {
  
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <NavbarArea/>
+      <Hero/>
     </>
   )
 }
