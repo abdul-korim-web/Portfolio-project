@@ -1,4 +1,4 @@
-import "./app.css"
+import "./App.js"
 import AboutHome from "./Components/ExpertiseBanar/AboutHome/AboutHome"
 import ExpertiseBanar from "./Components/ExpertiseBanar/ExpertiseBanar"
 import Hero from "./Components/Hero/Hero"
