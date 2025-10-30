@@ -6,6 +6,7 @@ import NavbarArea from "./Components/Navbar/NavbarArea"
 import RecentProjects from "./Components/RecentProjects/RecentProjects"
 import TestimonialsHome from "./Components/TestimonialsHome/TestimonialsHome"
 import Contact from "./Components/Contact/Contact"
+import Footer from "./Components/Footer/Footer"
 
 function App() {
  
@@ -19,6 +20,7 @@ function App() {
       <RecentProjects/>
       <TestimonialsHome/>
       <Contact/>
+      <Footer/>
     </>
   )
 }
