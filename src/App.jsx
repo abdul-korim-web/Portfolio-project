@@ -5,6 +5,7 @@ import Hero from "./Components/Hero/Hero"
 import NavbarArea from "./Components/Navbar/NavbarArea"
 import RecentProjects from "./Components/RecentProjects/RecentProjects"
 import TestimonialsHome from "./Components/TestimonialsHome/TestimonialsHome"
+import Contact from "./Components/Contact/Contact"
 
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
       <AboutHome/>
       <RecentProjects/>
       <TestimonialsHome/>
+      <Contact/>
     </>
   )
 }

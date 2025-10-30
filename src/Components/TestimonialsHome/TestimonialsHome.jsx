@@ -76,8 +76,8 @@ const TestimonialsHome = () => {
     <>
       <section className="px-5 py-10 md:px-10 md:py-20 flex flex-col bg-[#F5FCFF] ">
         <div className="flex flex-col space-y-3">
-          <h2 className="text-sm md:text-[21px]">Clients Feedback</h2>
-          <h2 className="text-xl font-semibold md:text-[64px]">
+          <h2 className="text-sm md:text-[21px] dark:text-black">Clients Feedback</h2>
+          <h2 className="text-xl font-semibold md:text-[64px] dark:text-black">
             Customer testimonials
           </h2>
         </div>
@@ -96,7 +96,7 @@ const TestimonialsHome = () => {
                   <i class="fa-regular fa-star"></i>
                 </div>
                 <div>
-                  <p className="text-sm">{item.clientdes}</p>
+                  <p className="text-sm dark:text-black">{item.clientdes}</p>
                 </div>
                 <div className="flex flex-wrap space-x-5 items-center">
                   <div className=" ">
@@ -107,8 +107,8 @@ const TestimonialsHome = () => {
                     />
                   </div>
                   <div>
-                    <h2>{item.clientName}</h2>
-                    <h2>{item.clientRole}</h2>
+                    <h2 className="dark:text-black">{item.clientName}</h2>
+                    <h2 className="text-black">{item.clientRole}</h2>
                   </div>
                 </div>
               </div>
